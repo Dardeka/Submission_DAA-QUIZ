@@ -140,7 +140,7 @@ fn test_binary_tree() {
 
     //Get the sibling of the leftsubtree from parent
     let _left_subtree_sibling = Node::get_sibling(&left_subtree.as_ref().unwrap());
-    println!("sibling of left subtree {:?}", left_subtree_sibling);
+    // println!("sibling of left subtree {:?}", left_subtree_sibling);
 
     //get the left subtree by value
     let left_subtree = rootlink.borrow().get_node_by_value(3);
